@@ -1,0 +1,31 @@
+##############################################################
+sanguinololu644P.name=Sanguinololu Botronicz W/ ATmega644P 16MHZ
+sanguinololu644P.upload.protocol=arduino
+sanguinololu644P.upload.maximum_size=63488
+sanguinololu644P.upload.speed=38400
+sanguinololu644P.bootloader.low_fuses=0xF6
+sanguinololu644P.bootloader.high_fuses=0xDC
+sanguinololu644P.bootloader.extended_fuses=0xFD
+sanguinololu644P.bootloader.path=atmega644p
+sanguinololu644P.bootloader.file=ATmegaBOOT_644P.hex
+sanguinololu644P.bootloader.unlock_bits=0x3F
+sanguinololu644P.bootloader.lock_bits=0x0F
+sanguinololu644P.build.mcu=atmega644p
+sanguinololu644P.build.f_cpu=16000000L
+sanguinololu644P.build.core=arduino
+
+##############################################################
+sanguinololu1284P.name=Sanguinololu Botronicz W/ ATmega1284p 16MHz using Optiboot
+sanguinololu1284P.upload.protocol=arduino
+sanguinololu1284P.upload.maximum_size=130048
+sanguinololu1284P.upload.speed=250000
+sanguinololu1284P.bootloader.low_fuses=0xf6
+sanguinololu1284P.bootloader.high_fuses=0xde
+sanguinololu1284P.bootloader.extended_fuses=0xfd
+sanguinololu1284P.bootloader.path=optiboot
+sanguinololu1284P.bootloader.file=optiboot_atmega1284p.hex
+sanguinololu1284P.bootloader.unlock_bits=0x3F
+sanguinololu1284P.bootloader.lock_bits=0x0F
+sanguinololu1284P.build.mcu=atmega1284p
+sanguinololu1284P.build.f_cpu=16000000L
+sanguinololu1284P.build.core=arduino
